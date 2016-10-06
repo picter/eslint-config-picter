@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-picter",
   "version": "0.0.1",
-  "description": "unified eslint config for picter",
+  "description": "A unified eslint config for picter projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
