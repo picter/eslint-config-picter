@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "unified eslint config for picter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/picter/eslint-config-picter.git"
+  },
+  "author": "Picter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/picter/eslint-config-picter/issues"
+  },
+  "homepage": "https://gitlab.com/picter/eslint-config-picter#README",
+  "dependencies": {
+    "eslint": "3.7.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-react": "6.3.0"
+  }
+}
