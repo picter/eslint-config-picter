@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "@picter/eslint-config-picter",
   "version": "0.0.1",
   "description": "unified eslint config for picter",
   "main": "index.js",
