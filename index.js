@@ -1,6 +1,4 @@
 module.exports = {
-  // settings:
-  //   import/resolver: webpack
   extends: 'airbnb',
   env: {
     browser: true,
