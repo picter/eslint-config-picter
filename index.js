@@ -9,6 +9,9 @@ module.exports = {
   },
   rules: {
     'arrow-parens': ['error', 'as-needed'],
+    'import/no-extraneous-dependencies': ['error', {
+      'devDependencies': ['**/*.spec.js', '**/*.spec.jsx']
+    }],
     'import/prefer-default-export': 0,
     'jsx-quotes': [2, 'prefer-single'],
     'jsx-a11y/no-static-element-interactions': 0,
