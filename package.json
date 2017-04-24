@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-picter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A unified eslint config for picter projects",
   "main": "index.js",
   "scripts": {
