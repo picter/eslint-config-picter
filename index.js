@@ -10,7 +10,12 @@ module.exports = {
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'import/no-extraneous-dependencies': ['error', {
-      'devDependencies': ['**/*.spec.js', '**/*.spec.jsx', '**/*.stories.jsx']
+      'devDependencies': [
+        '**/*.spec.js',
+        '**/*.spec.jsx',
+        '**/*.stories.jsx',
+        '**/__test-helpers__/**/*',
+      ]
     }],
     'import/prefer-default-export': 0,
     'jsx-quotes': [2, 'prefer-single'],
