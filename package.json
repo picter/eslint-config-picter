@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Picter <developers@picter.com>",
   "license": "MIT",
+  "repository": "git@github.com:picter/eslint-config-picter.git",
   "dependencies": {
     "eslint-config-airbnb": "14.1.0"
   },
@@ -20,5 +21,4 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0"
   },
-  "repository": "git@github.com:picter/eslint-config-picter.git"
 }
