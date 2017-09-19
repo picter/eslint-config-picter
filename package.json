@@ -1,24 +1,19 @@
 {
   "name": "eslint-config-picter",
-  "version": "0.2.1",
+  "version": "0.3.0-alpha.2",
   "description": "A unified eslint config for picter projects",
   "main": "index.js",
   "author": "Picter <developers@picter.com>",
   "license": "MIT",
   "repository": "git@github.com:picter/eslint-config-picter.git",
   "dependencies": {
-    "eslint-config-airbnb": "14.1.0"
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
   },
   "devDependencies": {
-    "eslint": "3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
-  },
-  "peerDependencies": {
-    "eslint": "3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
-  },
+    "ajv": ">=4.10.0"
+  }
 }
