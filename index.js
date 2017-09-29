@@ -18,7 +18,6 @@ module.exports = {
       ]
     }],
     'import/prefer-default-export': 0,
-    'jsx-quotes': [2, 'prefer-single'],
     'jsx-a11y/no-static-element-interactions': 0,
     'react/no-unused-prop-types': 0,
     'react/forbid-prop-types': 0,
