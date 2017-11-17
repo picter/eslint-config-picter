@@ -10,7 +10,7 @@ module.exports = {
   meta: {
     docs: {
       description: 'Restrict specific file extensions',
-      category: 'Stylistic Issues',
+      category: 'Best Practices',
       recommended: false
     },
 
