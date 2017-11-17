@@ -21,5 +21,6 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 0,
     'react/no-unused-prop-types': 0,
     'react/forbid-prop-types': 0,
+    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
   },
 };
