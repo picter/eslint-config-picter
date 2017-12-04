@@ -12,8 +12,8 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       'devDependencies': [
         '**/*.spec.js',
-        '**/*.spec.jsx',
-        '**/*.stories.jsx',
+        '**/*.story.js',
+        '**/*.stories.js',
         '**/__test-helpers__/**/*',
       ]
     }],
