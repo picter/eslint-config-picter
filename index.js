@@ -13,6 +13,7 @@ module.exports = {
       'devDependencies': [
         '**/*.spec.js',
         '**/*.spec.jsx',
+        '**/*.story.js',
         '**/*.stories.jsx',
         '**/__test-helpers__/**/*',
       ]
