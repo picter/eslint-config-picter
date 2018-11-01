@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": "git@github.com:picter/eslint-config-picter.git",
   "dependencies": {
-    "eslint": "^4.7.0",
+    "eslint": "^5.8.0",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {
     "ajv": ">=4.10.0"
