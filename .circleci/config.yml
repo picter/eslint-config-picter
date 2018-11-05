@@ -1,7 +1,7 @@
 version: 2
 
 jobs:
-  deploy_production:
+  publish_package:
     docker:
       - image: circleci/node:8.11.3
     working_directory: ~/repo
@@ -10,22 +10,22 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v1-dependencies-{{ checksum "yarn.lock" }}
             - v1-dependencies-
       - run: npm install
       - save_cache:
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
           paths:
             - node_modules
       - run:
           name: Publish to NPM
-          command: yarn publish --access public --new-version ${CIRCLE_TAG:1}
+          command: npm publish
 
 workflows:
   version: 2
   default:
     jobs:
-      - deploy_production:
+      - publish_package:
           context: org-global
           filters:
             branches:
