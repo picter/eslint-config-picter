@@ -1,7 +1,7 @@
 version: 2
 
 jobs:
-  deploy_production:
+  publish_package:
     docker:
       - image: circleci/node:8.11.3
     working_directory: ~/repo
@@ -25,7 +25,7 @@ workflows:
   version: 2
   default:
     jobs:
-      - deploy_production:
+      - publish_package:
           context: org-global
           filters:
             branches:
