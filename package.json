@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-picter",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A unified eslint config for picter projects",
   "license": "MIT",
   "author": "Picter <developers@picter.com>",
