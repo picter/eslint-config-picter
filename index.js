@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:prettier/recommended', 'prettier/react'],
+  extends: 'airbnb',
   env: {
     browser: true,
     commonjs: true,
@@ -9,20 +9,19 @@ module.exports = {
   },
   rules: {
     'arrow-parens': ['error', 'as-needed'],
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: [
-          '**/*.spec.js',
-          '**/*.story.js',
-          '**/*.stories.js',
-          '**/__test-helpers__/**/*',
-          '**/__tests__/**/*',
-          '**/setupTests.js',
-        ],
-      },
-    ],
+    'import/no-extraneous-dependencies': ['error', {
+      'devDependencies': [
+        '**/*.spec.js',
+        '**/*.story.js',
+        '**/*.stories.js',
+        '**/__test-helpers__/**/*',
+      ]
+    }],
+    'import/prefer-default-export': 0,
     'import/no-named-as-default': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+    'react/no-unused-prop-types': 0,
+    'react/forbid-prop-types': 0,
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
   },
-}
+};
