@@ -7,6 +7,14 @@ module.exports = {
     jest: true,
     node: true,
   },
+  overrides: [
+    {
+      files: ['constants.js', 'utils.js'],
+      rules: {
+        'import/prefer-default-export': 0,
+      },
+    },
+  ],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'import/no-extraneous-dependencies': [
