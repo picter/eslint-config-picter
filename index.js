@@ -15,6 +15,7 @@ module.exports = {
       },
     },
   ],
+  plugins: ['react-hooks'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'import/no-extraneous-dependencies': [
@@ -31,6 +32,7 @@ module.exports = {
       },
     ],
     'import/no-named-as-default': 0,
+    'react-hooks/rules-of-hooks': ['error'],
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
   },
 }
